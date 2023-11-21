@@ -10,12 +10,13 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: aliceblue;
     
+    
 }
 img {
     max-width: 100%;
 }
 
-/*######################---IDs---#########################*/
+/*######################---TXT---#########################*/
 
 .title {
     font-size: 50px;
@@ -25,6 +26,8 @@ img {
     font-size: 16px;
     padding: 20px;
 }
+
+/*######################---NAvbar---#########################*/
 
 .logo {
     height: 61.8033px;
@@ -49,6 +52,7 @@ padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
 }
 .navbar .menu ul {
     display: flex;
@@ -68,8 +72,42 @@ padding: 0 15px;
     color: aliceblue;
 }
 
-/*######################---Classes---#########################*/
+/*######################---Table---#########################*/
 
-#subj  {
-
+#subj table {
+    margin: 50px;
+    border-spacing: 100px;
+}
+#subj .btnMath {
+    height: 230px;
+    width: 200px;
+    background-image: url("../images/math.png");
+    background-repeat: no-repeat;
+    background-color: unset;
+    background-size: cover;
+    border-color: transparent;
+    border-radius: 20px;
+}
+#subj .btnPC {
+    height: 230px;
+    width: 200px;
+    background-image: url("../images/pc.png");
+    background-repeat: no-repeat;
+    background-color: unset;
+    background-size: cover;
+    border-color: transparent;
+    border-radius: 20px;
+}
+#subj .btnSI {
+    height: 230px;
+    width: 200px;
+    background-image: url("../images/si.png");
+    background-repeat: no-repeat;
+    background-color: unset;
+    background-size: cover;
+    border-color: transparent;
+    border-radius: 20px;
+}
+#subj button:hover {
+    color: goldenrod transparent;
 }
