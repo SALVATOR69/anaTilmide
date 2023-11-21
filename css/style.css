@@ -1,0 +1,75 @@
+/*######################---Formatting---#########################*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #1e1f20;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    
+}
+img {
+    max-width: 100%;
+}
+
+/*######################---IDs---#########################*/
+
+.title {
+    font-size: 50px;
+    margin-top: 60px;
+}
+.uTitle {
+    font-size: 16px;
+    padding: 20px;
+}
+
+.logo {
+    height: 61.8033px;
+    width: 137px;
+}   
+.container {
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.container-sm {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navbar {
+    background-color: midnightblue;
+    padding: 20px;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .menu ul {
+    display: flex;
+    list-style-type: none
+}
+.navbar ul li a {
+    margin: 0 50px;
+    padding: 10px 20px;
+    display: block;
+    font-weight: 1000;
+    transition: 0.5s;
+}
+.navbar ul li a:hover {
+    color: goldenrod;
+}
+.menu a {
+    color: aliceblue;
+}
+
+/*######################---Classes---#########################*/
+
+#subj  {
+
+}
