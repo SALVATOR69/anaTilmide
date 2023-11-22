@@ -34,7 +34,7 @@ img {
     width: 137px;
 }   
 .container {
-max-width: 1100px;
+max-width: 1100px ;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -62,6 +62,7 @@ padding: 0 15px;
     margin: 0 50px;
     padding: 10px 20px;
     display: block;
+    font-size: larger;
     font-weight: 1000;
     transition: 0.5s;
 }
@@ -75,8 +76,8 @@ padding: 0 15px;
 /*######################---Table---#########################*/
 
 #subj table {
-    margin: 50px;
-    border-spacing: 100px;
+    margin: 0px;
+    border-spacing: 80px;
 }
 #subj .btnMath {
     height: 230px;
@@ -86,7 +87,8 @@ padding: 0 15px;
     background-color: unset;
     background-size: cover;
     border-color: transparent;
-    border-radius: 20px;
+    cursor: pointer;
+    border-radius: 30px;
 }
 #subj .btnPC {
     height: 230px;
@@ -96,7 +98,8 @@ padding: 0 15px;
     background-color: unset;
     background-size: cover;
     border-color: transparent;
-    border-radius: 20px;
+    cursor: pointer;
+    border-radius: 30px;
 }
 #subj .btnSI {
     height: 230px;
@@ -106,8 +109,9 @@ padding: 0 15px;
     background-color: unset;
     background-size: cover;
     border-color: transparent;
-    border-radius: 20px;
+    cursor: pointer;
+    border-radius: 30px;
 }
-/*#subj button:hover {
+#subj button:hover {
     color: goldenrod transparent;
-}*/
+}
