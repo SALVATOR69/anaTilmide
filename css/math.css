@@ -1,0 +1,22 @@
+.in {   
+    margin: 30px;
+    background-color: gray;
+} 
+
+table {
+    margin: 30px;
+    background-color: gray;
+    border: 5px solid gray;
+}
+#listContent1 li {
+    list-style: none;
+}
+#listContent2  li {
+    list-style: none;
+}
+#listContent3 li {
+    list-style: none;
+}
+.title {
+    padding: 0 80px;
+}
